@@ -37,7 +37,6 @@ def gc_content(filename):
     
 
     
-
 def read_fasta():
     '''Reads a fasta txt file with
     ids and sequences and creates a 
