@@ -9,7 +9,7 @@ import subprocess
 
 def read_fastQ(): 
     '''Reads 200,000 sequences of a fastQ file and writes every sequence to a new file called result.txt'''
-    fastq_file=HTSeq.FastqReader("akis.fastq.gz")
+    fastq_file=HTSeq.FastqReader(".fastq.gz")
     result_f = open("result.txt","w")
 
     for read in itertools.islice(fastq_file,200000):
